@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f0f0;
+}
+.card{
+    width:30rem ;
+    margin: auto;
+    margin-top: 10%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 100px 10px;
+    position: relative;
+}
+input{
+    width: 100px;
+    height: 45px;
+    padding: 20px;
+    margin: 35px 10px 20px 10px;
+    display: inline-block;
+    position: relative;
+    border: 2px solid rgba(128, 128, 128, 0.614);
+    border-radius: 5px;
+   
+
+}
+.img{
+    display: flex;
+    align-items: center;
+}
+.card hr{
+    width :80% ;
+   margin-left: 20px;
+
+ 
+
+}
+img{
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 43px;
+}
+label{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #000000a0;
+    display: inline-block;
+    position: absolute;
+ padding: 10px 0 10px 15px;
+   
+}
+
+.calc{
+   margin-left: 10%;
+   font-family: 'Poppins', sans-serif;
+   font-style: italic;
+   font-weight: 900;
+   font-size: 40px;
+   display: inline-block;
+}
+.calc h3{
+    color: #854dfe;
+   display: inline-block;
+   font-size: 60px;
+}
+.calc h2{
+   display: inline-block;
+}
+footer{
+    margin-top: 30px;
+}
+
+@media  (max-width: 380px) {
+    .card{
+        margin-top: 40%;
+      
+    }
+  }
